@@ -1,0 +1,3 @@
+﻿  Source_Main.cpp
+D:\BSU\2Degree\4SEM\OS\LABS\Lab2\CreatingProcess_Lab2\CreatingProcess_Lab2\Source_Main.cpp(29,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  CreatingProcess_Lab2.vcxproj -> D:\BSU\2Degree\4SEM\OS\LABS\Lab2\CreatingProcess_Lab2\x64\Debug\CreatingProcess_Lab2.exe

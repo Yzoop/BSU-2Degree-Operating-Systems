@@ -1,0 +1,5 @@
+﻿  Creator.cpp
+D:\BSU\2Degree\4SEM\OS\LABS\Lab2\CreatingProcess_Lab2\Creator\Creator.cpp(47,9): warning C4101: name: неиспользованная локальная переменная
+D:\BSU\2Degree\4SEM\OS\LABS\Lab2\CreatingProcess_Lab2\Creator\Creator.cpp(46,11): warning C4101: numHours: неиспользованная локальная переменная
+D:\BSU\2Degree\4SEM\OS\LABS\Lab2\CreatingProcess_Lab2\Creator\Creator.cpp(46,7): warning C4101: id: неиспользованная локальная переменная
+  Creator.vcxproj -> D:\BSU\2Degree\4SEM\OS\LABS\Lab2\CreatingProcess_Lab2\x64\Debug\Creator.exe
