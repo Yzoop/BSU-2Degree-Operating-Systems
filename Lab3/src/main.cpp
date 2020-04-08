@@ -8,7 +8,7 @@
 void read_size_to(int& size);
 void read_array_to(int* to_arr, int arr_size);
 void begin_minmax_thread(const minmaxarg_t* minmaxarg);
-void begin_avarge_thread(const averagearg_t* averagearg);
+void begin_average_thread(const averagearg_t* averagearg);
 bool array_size_correct(int size);
 
 int main()
@@ -24,7 +24,7 @@ int main()
     begin_minmax_thread(minmaxarg);
 
     averagearg_t* averagearg = get_new_average_structure(minmaxarg->arr, array_size, 0);
-    begin_avarge_thread(averagearg);
+    begin_average_thread(averagearg);
 
     minmaxarg->arr[minmaxarg->minId] = averagearg->average;
     minmaxarg->arr[minmaxarg->maxId] = averagearg->average;
@@ -72,7 +72,7 @@ void begin_minmax_thread(const minmaxarg_t* minmaxarg)
 }
 
 
-void begin_avarge_thread(const averagearg_t* averagearg)
+void begin_average_thread(const averagearg_t* averagearg)
 {
     std::cout << "Starting average thread.\nPlease, wait...";
     HANDLE h_average = (HANDLE)_beginthread(average, 0, (void*)averagearg);
