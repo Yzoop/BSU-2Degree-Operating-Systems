@@ -1,11 +1,9 @@
-#include "labArgument.h"
+#include "lab_argument.h"
 #include <iostream>
 #include <Windows.h>
 #include <process.h>
-
-#include "minmax_thr.h"
-
-using namespace std;
+#include "Threads\minmax.h"
+#define SLEEP_MINMAX_TIME 7
 
 void min_max(void* minmaxarg)
 {
@@ -23,13 +21,13 @@ void min_max(void* minmaxarg)
             min = arg->arr[i];
             arg->minId = i;
         }
-        Sleep(7);
+        Sleep(SLEEP_MINMAX_TIME);
     }
     int min_global = min;
     int max_global = max;
-    cout << "Thread min_max: \n";
-    cout << "\tMax: " << max << "\n\tMin: " << min << "\n";
-    _endthread();
+    std::cout << "Thread min_max: \n";
+    std::cout << "\tMax: " << max << "\n\tMin: " << min << "\n";
+    abort();
 }
 
 
