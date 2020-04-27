@@ -4,7 +4,7 @@
 struct minmaxarg_t 
 {
 	int* arr = nullptr;
-	int arr_size, min, max, minId, maxId;
+	int arr_size, min, max, min_i, max_i;
 };
 
 struct averagearg_t
