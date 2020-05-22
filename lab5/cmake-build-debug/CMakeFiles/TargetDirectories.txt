@@ -1,0 +1,3 @@
+D:/BSU/2Degree/4SEM/OS/LABS/Lab5/process_synchronization_clion_solution/cmake-build-debug/CMakeFiles/process_synchronization_clion_solution.dir
+D:/BSU/2Degree/4SEM/OS/LABS/Lab5/process_synchronization_clion_solution/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/BSU/2Degree/4SEM/OS/LABS/Lab5/process_synchronization_clion_solution/cmake-build-debug/CMakeFiles/rebuild_cache.dir
